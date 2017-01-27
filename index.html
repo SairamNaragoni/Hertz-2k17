@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta charset="utf-8">
+	<title>Hertz</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/image.css">
+  <link rel="icon" type="image/jpg" sizes="16x16" href="images/image.jpg">
+  <style type="text/css">  
+  </style>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/animation.js"></script>
+  <script type="text/javascript" src="js/image.js"></script>
+  <script type="text/javascript">
+    $(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+  });
+  </script>
+</head>
+<body data-spy="scroll" data-target="spy-scroll-id">
+  <div id="preloader">
+    <div class="spinner">
+  <div class="cube1"></div>
+  <div class="cube2"></div>
+</div>
+	</div>
+    <div class="container" id="home">
+      <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4000">
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner  animated fadeIn " role="listbox">
+        <div class="item active animated fadeIn" style="background-image: url('images/s1.jpg');" >
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig cap_h"><strong>IETE</strong> STUDENTS' FORUM <p>PRESENTS</p></h1>
+            <p class="animated fadeInRightBig cap_para"><strong>The Tronix Mega Tech Fest</strong></p>
+            <a data-scroll class="btn btn-start btn1 animated fadeInUpBig cap_btn" style="background-color: transparent;border:1px solid #00cc00;border-radius: 5px;color:white;" role="button" href="#about">Start</a>
+            <div><a id="btn_bnce" class="btn" href="#about" style=""><i class="fa fa-angle-down"></i></a></div>
+          </div>
+        </div>
+        <div class="item animated fadeIn"  style="background-image: url('images/s2.jpg');" >
+          <div class="caption">
+            <h1 class="animated fadeInRightBig cap_h">WELCOME TO <strong>HERTZ</strong></h1>
+            <p class="animated fadeInLeftBig cap_para"><strong style="font-size: 30px;">2k17</strong></p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig cap_btn" style="background-color: transparent;border:1px solid #00cc00;border-radius: 5px;color:white;" role="button" href="#about">Start</a>
+            <div><a id="btn_bnce" class="btn" href="#about" style=""><i class="fa fa-angle-down"></i></a></div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      </a>
+      </div>
+    </div>
+	<!--Navigation Bar-->
+	<div class="navbar navbar-default" id="mainNavBar">
+		<div class="container nav_container">
+			<div class="nav-header">
+      <a href="#" class="navbar-brand">Hertz</a>
+				<button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar_down" style="background-color: white;">
+          <span class="icon-bar top-bar"></span>
+          <span class="icon-bar middle-bar"></span>
+          <span class="icon-bar bottom-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar_down">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#home" >Home</a></li>
+					<li class="active a"><a href="#about">About</a></li>
+					<li class="b"><a href="#events">Events</a></li>
+					<li class="c"><a href="#committee">Committee</a></li>
+					<li class="d"><a href="#contactUs">Contact Us</a></li>
+					<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc-Tu-R88fs7U0am73JIuS1MPWIAD121TRpIYUJQ5_ih1NqWw/viewform" >Registrations</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--About-->
+	<div  id="about" class="container-fluid animated" style="margin-bottom: 100px;">
+    	<h1 class="text-primary">About</h1>
+    	<div class="row">
+    		<div class="col-md-1"></div>
+    		<div class="col-md-5 animated about-1" style="padding-top: 50px;">
+    			<p>
+    				<b><i>HERTZ</i></b> is a maiden Electronics Mega-Fest organized by IETE Student's Forum, <b>National Institute Of Technology Surat.</b>  It is biggest of it's kind in Gujarat.  Hertz is a three day festival consisting of informal, technical and other exciting events like Coding and Public Speaking.  It is open to all, so sit back, enjoy and resonate with Hertz.
+    			</p>
+    		</div>
+    		<div class="col-md-1"></div>
+    		<div class="col-md-5 animated about-img-1">
+    			<img class="img-responsive "  src="images/logo.jpg" alt="Logo-Hertz" style="float: right;">
+    		</div>
+     	</div>
+    	<div class="row about-2 animated">
+    		<div class="col-md-2"></div>
+      		<div class="col-md-3 about-img-2" >
+      			<img class="img-responsive" src="images/hertz.jpg" alt="Hertz-2k17" width="150" height="100">
+      		</div>
+      		<div class="col-md-5">
+      			<p>
+      				<blockquote class="blockquote" ><div style="background-color: #f4f4f4; padding: 15px;"><i>Heinrich Rudolf Hertz (22 February 1857 – 1 January 1894) was a German physicist who first conclusively proved the existence of electromagnetic waves theorized by James Clerk Maxwell's electromagnetic theory of light.  The unit of frequency – cycle per second – was named the "hertz" in his honor.</i></div></blockquote>
+      			</p>
+      		</div>
+      		<div class="col-md-2"></div>
+    	</div>
+    </div>
+    <hr>
+	<!--Events-->
+	<div id="events" class="container-fluid">
+    	<h1 class="text-primary">Events</h1>
+    	<div class="container-fluid">
+    		<div class="row">
+    			<div class="col-md-3 col-sm-6 animated event1" align="center"> <a href="pages/robomania.html"><img class="img-rounded" src="images/events/robomania.jpg" alt="Hertz-2k17" width="200" height="200" align="center"><p class="Event_Title"> <b>Robomania</b> </p></a> </div>
+    			<div class="col-md-3 col-sm-6 animated event2" align="center"> <a href="pages/circuitrix.html"><img class="img-rounded" src="images/events/circuitrix.jpg" alt="Hertz-2k17" width="200" height="200" align="center"> <p class="Event_Title"> <b>Circutrix</b> </p></a>  </div>
+    			<div class="col-md-3 col-sm-6 animated event3" align="center"><a href="pages/smackdown.html"> <img class="img-rounded" src="images/events/smackdown.jpg" alt="Hertz-2k17" width="200" height="200" align="center"> <p class="Event_Title"> <b>Smackdown</b> </p> </a> </div> 
+    			<div class="col-md-3 col-sm-6 animated event4" align="center"><a href="pages/quotient.html"><img class="img-rounded" src="images/events/quotient.jpg" alt="Hertz-2k17" width="200" height="200" align="center"> <p class="Event_Title"> <b>Electronics Quotient</b> </p> </a> </div>
+    		</div>
+    	</div>
+    	<div class="container-fluid">
+    		<div class="row">
+    			<div class="col-md-4 animated event5" align="center"> <a href="pages/coding.html"><img class="img-circle" src="images/events/coding.jpg" alt="Hertz-2k17" width="230" height="230" align="center"> <p class="Event_Title"> <b>Coding</b> </p></a> </div>
+    			<div class="col-md-4 animated event6" align="center"> <a href="pages/sculptura.html"><img class="img-circle" src="images/events/sculptura.jpg" alt="Hertz-2k17" width="230" height="230" align="center"> <p class="Event_Title"> <b>Sculptura</b> </p> </a> </div>
+    			<div class="col-md-4 animated event7" align="center"><a href="pages/publicspeaking.html"><img class="img-circle" src="images/events/speaking.jpg" alt="Hertz-2k17" width="230" height="230" align="center"> <p class="Event_Title"> <b>Public Speaking</b> </p></a>  </div>
+    		</div>
+    	</div>
+    	
+ 		<p align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSc-Tu-R88fs7U0am73JIuS1MPWIAD121TRpIYUJQ5_ih1NqWw/viewform" class="btn btn-info btn-lg" role="button" style="margin-top: 50px;">Registrations Here</a></p>
+    <hr>
+    </div>
+    <!--Special Event-->
+    <div id="SpecialEvent" class="container-fluid eventSpl">
+      <h1 class="text-primary">Special Event</h1>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6 spl_text">
+            <p>
+              After Movie Of Hertz' will be to capture the Exciting Events , Competitions and Memorable Moments throughtout the grand festive.It is a special event of informals.Register Yourself and win exciting prizes.
+              <a href="pages/special_event.html">Read More..</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+	<!--Committee-->
+	<div id="committee">
+		<h1 class="text-primary">Committee Heads</h1>
+  		<div class="row">
+  		  <h4 class="text-info" align="center">Core Committee</h4>
+  			<div class="col-md-2"></div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 ">
+          <div class="hovereffect row_1">
+            <img class="img-responsive" src="images/committee/1.jpg" alt="img" style="width: 100%;height: 100%;">
+            <div class="overlay">
+                <h2>N Manish</h2>
+                <p style="padding: 0px;margin: 0px">Chairman</p>
+                <p>Developer-2k16</p>
+                <p><a class="btn" href="https://www.facebook.com/manish.rukamsh"><i class="fa fa-facebook"></i></a><a class="btn" href="https://www.linkedin.com/in/manish-rukamsh-nakirakommula-816114105/"><i class="fa fa-linkedin-square"></i></a></p>
+            </div>
+          </div>
+        </div>
+  			<div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+          <div class="hovereffect row_1">
+            <img class="img-responsive" src="images/committee/2.jpg" alt="img" style="width: 100%;height: 100%;">
+            <div class="overlay">
+                <h2>Anugrahnimavat</h2>
+                <p>Secretary</p>
+                <p><a class="btn" href="https://www.facebook.com/anugrah.nimavat"><i class="fa fa-facebook"></i></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+          <div class="hovereffect row_1">
+            <img class="img-responsive" src="images/committee/3.jpg" alt="img" style="width: 100%;height: 100%;">
+            <div class="overlay">
+                <h2>Sindhu Sree A</h2>
+                <p>Treasurer</p>
+                <p><a class="btn" href="https://www.facebook.com/sindhu.aita"><i class="fa fa-facebook"></i></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+          <div class="hovereffect row_1">
+            <img class="img-responsive" src="images/committee/4.jpg" alt="img" style="width: 100%;height: 100%;">
+            <div class="overlay">
+                <h2>Sivaram Katta</h2>
+                <p>Poster Designer</p>
+                <p><a class="btn" href="https://www.facebook.com/sivaram.katta004"><i class="fa fa-facebook"></i></a></p>
+            </div>
+          </div>
+        </div>
+  			<div class="col-md-2 "></div>
+  		</div>
+      <div class="mark_line" ></div>
+  		<div class="row">
+        <h4 class="text-info" align="center">Convenors And Co-Convenors</h4>
+        <div class="col-md-2"></div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+          <div class="hovereffect row_2">
+            <img class="img-responsive" src="images/committee/5.jpg" alt="img" style="width: 100%;height: 100%;">
+            <div class="overlay">
+                <h2>Paras</h2>
+                <p>Convenor</p>
+                <p><a class="btn" href="https://www.facebook.com/paras.kor.1"><i class="fa fa-facebook"></i></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+          <div class="hovereffect row_2">
+            <img class="img-responsive" src="images/committee/8.jpg" alt="img" style="width: 100%;height: 100%;">
+            <div class="overlay">
+                <h2>Shailaja</h2>
+                <p>Technical Head</p>
+                <p><a class="btn"><i class="fa fa-facebook"></i></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+          <div class="hovereffect row_2">
+            <img class="img-responsive" src="images/committee/6.jpg" alt="img" style="width: 100%;height: 100%;">
+            <div class="overlay">
+                <h2>Nikithsai</h2>
+                <p>Technical Head</p>
+                <p><a class="btn" href="https://www.facebook.com/nikith.sai"><i class="fa fa-facebook"></i></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+          <div class="hovereffect row_2">
+            <img class="img-responsive" src="images/committee/7.jpg" alt="img" style="width: 100%;height: 100%;">
+            <div class="overlay">
+                <h2>Puneethsai</h2>
+                <p>Co-Convenor</p>
+                <p><a class="btn" href="https://www.facebook.com/puneeth.sai.77"><i class="fa fa-facebook"></i></a></p>
+            </div>
+          </div>
+        </div> 
+        <div class="col-md-2 "></div>
+      </div>
+      <div class="mark_line" ></div>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+        <h4 class="text-info" style="position: relative;text-align: center;">Branch Counsellor</h4>
+          <div class="hovereffect row_3">
+            <img class="img-responsive" src="images/committee/9.jpg" alt="img" style="width: 100%;height: 100%;">
+            <div class="overlay">
+                <h2>Sadath</h2>
+                <p>Branch Counsellor</p>
+                <p><a class="btn" href="https://www.facebook.com/g.sadathulla"><i class="fa fa-facebook"></i></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+        <h4 class="text-info dev" style="position: relative;text-align: center;">Developer</h4>
+          <div class="hovereffect row_3">
+            <img class="img-responsive" src="images/committee/10.jpg" alt="img" style="width: 100%;height: 100%;">
+            <div class="overlay">
+                <h2>Mohith</h2>
+                <p>Developer-2k16</p>
+                <p><a class="btn" href="https://www.facebook.com/mohith.sreenivas.9"><i class="fa fa-facebook"></i></a><a class="btn" href="https://github.com/Mohith22"><i class="fa fa-github"></i></a><a class="btn" href="https://in.linkedin.com/in/mohith-damarapati-3b5104131"><i class="fa fa-linkedin-square"></i></a></p>
+            </div>
+          </div>
+        </div>
+        <h4 class="text-info dev_1" style="position: relative;"><span class="dev_1_h">Web Developers</span></h4>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+          <div class="hovereffect row_3">
+            <img class="img-responsive" src="images/committee/11.jpg" alt="img" style="width: 100%;height: 100%;">
+            <div class="overlay">
+                <h2>Sandeep Varma</h2>
+                <p>Developer-2k17</p>
+                <p><a class="btn" href="https://www.facebook.com/sandeep.varma.5011"><i class="fa fa-facebook"></i></a><a class="btn" href="https://github.com/sandeepvarma123"><i class="fa fa-github"></i></a><a class="btn" href="https://www.linkedin.com/in/sandeep-varma-47473612b/"><i class="fa fa-linkedin-square"></i></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+          <div class="hovereffect row_3">
+            <img class="img-responsive" src="images/committee/12.jpg" alt="img" style="width: 100%;height: 100%;">
+            <div class="overlay">
+                <h2>Sairam Naragoni</h2>
+                <p>Developer-2k17</p>
+                <p><a class="btn" href="https://www.facebook.com/sairam.naragoni"><i class="fa fa-facebook"></i></a><a class="btn" href="https://github.com/SairamNaragoni"><i class="fa fa-github"></i></a><a class="btn" href="https://in.linkedin.com/in/sairam-naragoni-47b43212b"><i class="fa fa-linkedin-square"></i></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 "></div>
+      </div>
+  </div>
+	<hr>
+	<!--Contact Us-->
+	<div id="contactUs" class="container-fluid contact_us" style="padding-left: 0px;padding-right: 0px;">
+      	<h1 class="text-primary">Contact Us</h1>
+    	<div class="row">
+        <div class="col-md-1"></div>
+    		<div class="col-md-6" style="font-size: 25px;font-style: italic;"><p>Feel free to provide feedback on our events or give us your suggestions for the new ones.
+			You can get in touch with us using through our Facebook page.</p></div>
+      <div class="col-md-1"></div>
+          <div class="col-md-3">
+              <a href="https://www.facebook.com/events/1523802967915154/" class="btn btn-block btn-social btn-facebook" style="margin-bottom: 15px;">
+              <span class="fa fa-facebook"></span>Like us on Facebook</a>
+              <p><i class="fa fa-phone" style="color: #034a7d;font-size: 25px;"></i> Manish : (+91)9904016743</p>
+              <p><i class="fa fa-phone" style="color: #034a7d;font-size: 25px;"></i> Paras : (+91)9510845435</p>
+          </div>
+    	</div>
+        <div class="row" style="margin-left: 0px;margin-right: 0px;padding-right: 0px;padding-left: 0px;">
+            <div class="col-md-12" style="margin-left: 0px;margin-right: 0px;padding-right: 0px;padding-left: 0px;">
+              <iframe width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" style="border:0;padding-right: 0px;padding-left: 0px;" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCz8rjo-ZHL9xrmy7CNpLimwnZsZUT-K9U&q=Sardar+Vallabhbhai+National+Institute+of+Technology,Ichchhanath,+Surat,+Gujarat" allowfullscreen></iframe>
+            </div>
+           <!-- <div class="col-md-1"> </div>-->
+           <!--<div class="col-md-3">
+             <iframe src="https://goo.gl/forms/7x5RtfLFDJCOlPIw1" width="100%" height="400" style="margin: auto;"></iframe>
+            </div>-->
+        </div>
+  	</div>
+  	<hr>
+	<!--Footer-->
+	<footer>
+    <a href="http://www.svnit.ac.in"><img src="images/svnit.png" style="width: 200px;height: 200px;"></a>
+    <div class="mark_black"></div>
+		<div class="footer"><p>&copy; copyright 2017</p><p>Developed by <a href="https://github.com/SairamNaragoni">Sairam</a> and <a href="https://github.com/sandeepvarma123">Sandeep</a></p></div>
+	</footer>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>	
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
