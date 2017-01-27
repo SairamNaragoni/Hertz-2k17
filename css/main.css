@@ -1,0 +1,285 @@
+		body,html{
+			height: 100%;
+			width: 100%;
+		}
+		*{
+			border: 0px;
+			padding: 0px;
+			margin: 0px;
+		}
+		div{
+			width: 100%;
+		}
+	#home,#myCarousel,.carousel-inner,.item{
+          width: 100%;
+          height: 100%;
+          padding: 0px;
+          border-radius: 0px;
+          border:0px;
+          margin: 0px;
+          top: 0;
+      }
+      .container{
+        margin-top: 0px;
+      }
+      .text-primary{
+      	color: black;
+      	font-family: "Times New Roman", Times, serif;
+      }
+      .item{
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100%;
+      max-width: 100%;
+      padding: 0px;
+      margin: 0px;
+      }
+      .carousel-control{
+          padding: 0px;
+          border:0px;
+          margin: 0px;
+      }
+      h1{
+        padding-top: 0px;
+        margin-top: 0px;
+      }
+      h1 strong{
+      	color: #00cc00;
+      }
+      p strong{
+      	color: #00cc00;
+      }
+      .cap_h{
+        text-align: center;
+        position: relative;
+        color: white;
+        z-index: 9999;
+        padding-top: 30vh;
+      }
+      .cap_para{
+      	text-align: center;
+        position: relative;
+        color: white;
+        z-index: 9999;
+      }
+      #btn_bnce .fa-angle-down {
+ 		position: absolute;
+  		left: 50%;
+  		bottom: 2vh;
+  		color: #fff;
+  		display: inline-block;
+  		width: 24px;
+  		margin-left: -12px;
+  		font-size: 24px;
+  		line-height: 24px;
+  		z-index: 999;
+        -webkit-animation: bounce 3000ms infinite;
+  		animation: bounce 3000ms infinite;
+		}
+      .cap_btn{
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+        color: #000066;
+        font-size: 17px;
+        position: relative;
+        z-index: 9999;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 15vh;
+      }
+      .carousel-fade .carousel-inner .item:after {
+          content: " ";
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background: rgba(0,0,0,.7);
+      }
+		h1{
+			text-align: center;
+			margin-bottom: 30px;
+			font-size: 45px;
+			font-weight: normal;
+		}
+		.fixed{
+			position: fixed;
+			top: 0;
+			z-index: 100;
+			width: 100%;
+		}
+		.home_wrapper{
+			background-image: url("../images/home.jpg");
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			min-height: 100%;
+			max-width: 100%;
+			padding: 0px;
+			margin: 0px;
+		}
+		.home_bk{
+			max-width: 100%;
+			max-height: 100%;
+		}
+		p{
+			font-size: 20px;
+		}
+		
+		#about{
+			margin: 0px;
+			visibility: hidden;
+			-webkit-animation-duration: 1.5s;
+			-moz-animation-duration: 1.5s;
+			-o-animation-duration: 1.5s;
+			animation-duration: 1.5s;
+		}
+		.about-1,.about-img-1,.about-2{
+			visibility: hidden;
+			animation-duration: 2s;
+			-moz-animation-duration: 2s;
+			-o-animation-duration: 2s;
+			-webkit-animation-duration: 2s;
+		}
+		.about-2{
+			margin-top: 50px;
+		}
+
+		.about-1{
+			font-family:"Trebuchet MS", Helvetica, sans-serif;
+		}
+		#events{
+			background-attachment: fixed;
+			-webkit-transition: width 1s, height 1s, -webkit-transform 1s; 
+   			transition: width 1s, height 1s, transform 1s;
+   			-moz-transition: width 1s, height 1s, -moz-transform 1s;
+   			-o-transition: width 1s, height 1s, -o-transform 1s;
+		}
+		#contactUs{
+			background-color:  ;
+		}
+		@media(max-width: 768px){
+			.event1,.event2,.event3,.event4,.event5,.event6,.event7,.eventSpl,.spl_text,.contact_us{
+				visibility: hidden;
+				animation-duration: 1s;
+				-moz-animation-duration: 1s;
+				-o-animation-duration: 1s;
+				-webkit-animation-duration: 1s;
+			}
+		.about-img-1,.about-img-2{
+			padding-top: 50px;
+		}
+			.row_1,.row_2,.row_3{
+				visibility: hidden;
+				animation-duration: 1s;
+				-moz-animation-duration: 1s;
+				-o-animation-duration: 1s;
+				-webkit-animation-duration: 1s;
+			}
+		}
+		.event1,.event2,.event3,.event4,.event5,.event6,.event7,.eventSpl,.spl_text,.contact_us{
+				visibility: hidden;
+				animation-duration: 1s;
+				-moz-animation-duration: 1s;
+				-o-animation-duration: 1s;
+				-webkit-animation-duration: 1s;
+		}
+		.row_1,.row_2,.row_3{
+				visibility: hidden;
+				animation-duration: 1s;
+				-moz-animation-duration: 1s;
+				-o-animation-duration: 1s;
+				-webkit-animation-duration: 1s;
+		}
+
+		#SpecialEvent{
+			background-image: url('../images/movie_bk.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: fixed;
+			padding-bottom: 50px;
+			padding-top: 60px;
+			margin-bottom: 20px;
+			color: white;
+		}
+		#preloader{
+			text-align: center;
+			width: 100%;
+			height: 100%;
+		}
+		div.row{
+			margin-bottom: 0px;
+			margin-right: 0px;
+			padding-right: 0px;
+			margin-left: 0px;
+		}
+		.img-rounded,.img-circle{
+			-webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */
+   			transition: width 1s, height 1s, transform 1s;
+   			-moz-transition: width 1s, height 1s, -moz-transform 1s;
+   			-o-transition: width 1s, height 1s, -o-transform 1s;
+		}
+		.mark_line{
+			border: 1px groove #00cc00;
+			width:60%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 20px;
+			height: 0px;
+			margin-bottom: 10px;
+			opacity: 0.5;
+		}
+		.mark_black{
+			border: 1px groove white;
+			width: 40%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 10px;
+			height: 0px;
+		}
+		.btn-info{
+			background-color: #034a7d;
+			border-radius: 10px;
+			color: #fff;
+		}
+		.btn-info:hover{
+			background-color: #035996;
+		}
+		@media(min-width: 768px){
+			.img-rounded:hover,.img-circle:hover{
+			width: 280px;
+			height: 280px;
+			}
+			.dev{
+				visibility: hidden;
+
+			}
+			.dev_1_h{
+				margin-left: 70px;
+			}
+		}
+
+		@media(max-width: 767px){
+			.dev{
+				visibility: initial;
+			}
+			.dev_1{
+				text-align: center;
+			}
+			.mark_line{
+				margin-top: 0px;
+				width: 80%;
+			}
+			.mark_black{
+				width: 70%;
+			}
+			.btn1{
+				margin-top: 8vh;
+			}
+		}
+		
