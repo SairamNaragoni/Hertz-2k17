@@ -1,6 +1,7 @@
  		//preloader removal
  		$(window).on('load',function (event){
 		 	$(document).ready(function(event){
+		 			$('html, body').removeAttr('style');
               		$('#preloader').slideUp(1000, function(){$(document).off('scroll');});
   			});
   		});
